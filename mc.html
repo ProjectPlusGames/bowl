@@ -36,10 +36,6 @@
       }, false);
     });
 
-    window.addEventListener("load", () => {
-      if (document.location.href.startsWith("file:")) {
-        console.warn("HTTP required. Do not open this file locally, run it via a local HTTP server.");
-      } else {
         // Default configuration for EaglercraftX
         if (!window.eaglercraftXOpts) {
           window.eaglercraftXOpts = {
